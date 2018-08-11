@@ -1,0 +1,20 @@
+{
+  "name": "simple-chat",
+  "version": "0.0.1",
+  "description": "Un chat muy simple con Express y Socket.IO",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "Express",
+    "Socket.IO"
+  ],
+  "author": "Gary Guzman <gary.2810.dav@gmail.com> (https://twitter.com/_garyDav)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
