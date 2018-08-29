@@ -1,7 +1,8 @@
+// https://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor
 'use strict'
 
 const EventEmitter = require('events').EventEmitter,
-	  inherits = require('util').inherits;
+	    inherits = require('util').inherits;
 
 var Clock = function() {
 	var self = this
@@ -15,10 +16,10 @@ inherits(Clock, EventEmitter)
 
 Clock.prototype.theTime = function() {
 	var date = new Date(),
-		hrs = date.getHours(),
-		min = date.getMinutes(),
-		sec = date.getSeconds(),
-		msg = hrs + ':' + min + ':' + sec
+		  hrs = date.getHours(),
+		  min = date.getMinutes(),
+		  sec = date.getSeconds(),
+		  msg = hrs + ':' + min + ':' + sec
 
 	console.log(msg)
 };
